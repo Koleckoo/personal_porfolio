@@ -13,7 +13,7 @@ html {
     display: flex;
     flex-direction: column;
     font-family: "Rubik", sans-serif;
-    border: solid 1px black;
+    
   }
 
   .nav {
@@ -125,6 +125,9 @@ html {
     justify-content: center;
     width: 15%;
     height: 300px;
+    padding-right: 45px;
+    padding-top:50px;
+    
     
   }
 /* this is styling for columns under circles */
@@ -434,10 +437,168 @@ img.portfolio__cards-card-img {
   color:#F4F9FC;
   cursor: pointer;
 }
-
+h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
 p span {
   text-decoration: underline;
   text-decoration-color: #88C2CE;
   text-decoration-thickness: 8px;
+}
+
+.findmehere {
+  display: flex;
+  flex-direction: column;
+  background-color: #626461;
+}
+
+.findmehere__header {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top:35px;
+  color:#88C2CE;
+}
+h5 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.findmehere__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.findmehere__icons-github {
+  width: 150px;
+
+}
+.findmehere__icons-linkedin {
+  width: 150px;
+}
+.findmehere__icons-instagram {
+  width: 150px;
+}
+
+.contactme {
+  display: flex;
+  flex-direction: column;
+  background-color: #88C2CE;
+}
+.contactme__header {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contactme__form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap; 
+}
+
+.contactme__form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+  margin-bottom: 15px;
+  border-bottom: solid 1px black;
+}
+.contactme__form-input-fname {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactme__form-input-lname {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactme__form-input-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactme__form-input-phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contactme__form-input2 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-bottom: 35px;
+}
+
+.input {
+  background-color: #88C2CE;
+  border:none;
+}
+.message {
+  height: 150px;
+  border-radius: 1.2rem;
+}
+
+.message__btn {
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #10100F;
+  padding: 20px;
+  width: 100%;
+  color:#F4F9FC;
+  border-radius: 1rem;
+}
+.message__btn:hover {
+  cursor: pointer;
+  color:black; 
+  background-color: white;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__header {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 2rem;
+  margin-bottom: 75px;
+  border-bottom: ridge 20px #88C2CE;
+  padding-bottom:25px;
+}
+
+
+
+.footer__logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 25px;
+  
+}
+
+.footer__logo {
+  width:50px;
+  margin-right: 25px;
+}
+
+.footer__par {
+  margin-top:30px;
+  margin-bottom:50px;
+  font-size: 0.7rem;
 }
